@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Husain Raja - Backend Developer & Full Stack Engineer studying at COEP Technological University. SIH 2024 Winner.">
+  <meta name="author" content="Husain Raja">
+  <meta name="keywords" content="Husain Raja, Backend Developer, Full Stack Engineer, COEP, SIH 2024, Portfolio">
+
+  <title>Husain Raja | Backend Developer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Sono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Ambient Glow -->
+  <div class="ambient-glow"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">HR</a>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <a href="https://drive.google.com/file/d/YOUR_RESUME_ID/view" target="_blank" class="nav-resume">Resume</a>
+      <button class="nav-toggle" id="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, my name is</p>
+      <h1 class="hero-name">Husain Raja<span class="accent">.</span></h1>
+      <h2 class="hero-tagline">I build things for the web.</h2>
+      <p class="hero-description">
+        A skilled <span class="highlight">Backend Developer</span> and <span class="highlight">Full Stack
+          Engineer</span>
+        studying at COEP Technological University, Pune. Passionate about creating robust digital solutions
+        and bringing ideas to life with clean, efficient code.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual-container">
+      <div class="hero-glow-bg"></div>
+      <img src="profile_github_hq.jpg" alt="Husain Raja" class="hero-image-full">
+      <div class="hero-image-overlay"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      <div class="about-content-full">
+        <div class="about-text">
+          <p>
+            Hello! I'm Husain, a passionate developer who loves building efficient
+            backend systems and full-stack applications. My journey in tech has led me
+            to work on exciting projects ranging from <span class="highlight">SAR image processing</span>
+            to <span class="highlight">breed recognition systems</span> using machine learning.
+          </p>
+          <p>
+            Currently, I'm pursuing my studies at <span class="highlight">COEP Technological University</span>,
+            where I've had the opportunity to participate in national-level hackathons
+            and collaborate with talented teams to solve real-world problems.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies, contributing
+            to open-source projects, or working on innovative solutions that push the
+            boundaries of what's possible.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">02.</span> Technical <span class="outline-text">Skills</span>
+      </h2>
+      <div class="skills-filter">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="languages">Languages</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+        <button class="filter-btn" data-filter="tools">Tools</button>
+      </div>
+      <div class="skills-grid">
+        <!-- Languages -->
+        <div class="skill-badge" data-category="languages">
+          <i class="devicon-python-plain"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-badge" data-category="languages">
+          <i class="devicon-java-plain"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-badge" data-category="languages">
+          <i class="devicon-cplusplus-plain"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill-badge" data-category="languages">
+          <i class="devicon-javascript-plain"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-badge" data-category="languages">
+          <i class="devicon-typescript-plain"></i>
+          <span>TypeScript</span>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-badge" data-category="frontend">
+          <i class="devicon-react-original"></i>
+          <span>React</span>
+        </div>
+        <div class="skill-badge" data-category="frontend">
+          <i class="devicon-html5-plain"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-badge" data-category="frontend">
+          <i class="devicon-css3-plain"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-badge" data-category="frontend">
+          <i class="devicon-nextjs-original"></i>
+          <span>Next.js</span>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-badge" data-category="backend">
+          <i class="devicon-nodejs-plain"></i>
+          <span>Node.js</span>
+        </div>
+        <div class="skill-badge" data-category="backend">
+          <i class="devicon-express-original"></i>
+          <span>Express</span>
+        </div>
+        <div class="skill-badge" data-category="backend">
+          <i class="devicon-mongodb-plain"></i>
+          <span>MongoDB</span>
+        </div>
+        <div class="skill-badge" data-category="backend">
+          <i class="devicon-postgresql-plain"></i>
+          <span>PostgreSQL</span>
+        </div>
+
+
+        <!-- Tools -->
+        <div class="skill-badge" data-category="tools">
+          <i class="devicon-git-plain"></i>
+          <span>Git</span>
+        </div>
+        <div class="skill-badge" data-category="tools">
+          <i class="devicon-docker-plain"></i>
+          <span>Docker</span>
+        </div>
+        <div class="skill-badge" data-category="tools">
+          <i class="devicon-pytorch-original"></i>
+          <span>PyTorch</span>
+        </div>
+        <div class="skill-badge" data-category="tools">
+          <i class="devicon-tensorflow-original"></i>
+          <span>TensorFlow</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">03.</span> Achievements
+      </h2>
+      <div class="achievements-grid">
+        <div class="achievement-card featured">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Smart India Hackathon 2024</h3>
+            <span class="achievement-badge winner">🏆 Winner</span>
+            <p>Won the national-level Smart India Hackathon with an innovative SAR Image Colorization solution.</p>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fa-solid fa-medal"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Smart India Hackathon 2025</h3>
+            <span class="achievement-badge finalist">🎯 Finalist</span>
+            <p>Selected as a finalist in SIH 2025, continuing to push boundaries in innovation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">
+        <span class="section-number">04.</span> Featured <span class="outline-text">Projects</span>
+      </h2>
+    </div>
+    <div class="projects-carousel">
+      <div class="projects-track">
+        <!-- Project 1 -->
+        <div class="project-card featured-project">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://huggingface.co/spaces/HusainRaja523/SAR-Image-Colorization/" target="_blank"
+                class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="project-placeholder">
+              <i class="fa-solid fa-satellite"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-label">SIH 2024 Winner</span>
+            <h3>SAR Image Colorization</h3>
+            <p>An innovative solution for colorizing Synthetic Aperture Radar images using deep learning, making
+              satellite imagery more interpretable.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>Deep Learning</span>
+              <span>HTML</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/HusainRajaa/SIH-25" target="_blank" class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="project-placeholder">
+              <i class="fa-solid fa-cow"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-label">ML Project</span>
+            <h3>Breed Recognition System</h3>
+            <p>Cow & Buffalo breed classification using PyTorch with model quantization for deployment on edge devices
+              using TFLite.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>PyTorch</span>
+              <span>TFLite</span>
+              <span>ResNet</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://coep-laf.vercel.app/" target="_blank" class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="project-placeholder">
+              <i class="fa-solid fa-magnifying-glass-location"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-label">Full Stack</span>
+            <h3>COEP Lost & Found</h3>
+            <p>A campus-wide platform for reporting and finding lost items, helping students reconnect with their
+              belongings.</p>
+            <div class="project-tags">
+              <span>TypeScript</span>
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/HusainRajaa/Splitwise_advanced" target="_blank" class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="project-placeholder">
+              <i class="fa-solid fa-money-bill-transfer"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-label">Full Stack</span>
+            <h3>Splitwise Advanced</h3>
+            <p>An advanced expense splitting application with smart calculations and group management features.</p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>Express</span>
+              <span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+          <div class="project-image">
+            <div class="project-overlay">
+              <a href="https://github.com/HusainRajaa/Student_connect" target="_blank" class="project-link">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+            <div class="project-placeholder">
+              <i class="fa-solid fa-users"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-label">Web App</span>
+            <h3>Student Connect</h3>
+            <p>A networking platform connecting students across campuses for collaboration, mentorship, and
+              opportunities.</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+              <span>Socket.io</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <a href="https://github.com/HusainRajaa?tab=repositories" target="_blank" class="view-all-btn">
+        View All Projects <i class="fa-solid fa-arrow-right"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title light">
+        <span class="section-number">05.</span> Get In Touch
+      </h2>
+      <div class="contact-content">
+        <h3 class="contact-heading">Have an idea?</h3>
+        <p class="contact-text">
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
+        <a href="mailto:husainir25.comp@coeptech.ac.in" class="btn btn-primary btn-large">
+          <i class="fa-solid fa-paper-plane"></i> Say Hello
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p class="footer-email">husainir25.comp@coeptech.ac.in</p>
+          <p class="footer-location">COEP Technological University, Pune</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/husainilyasraja" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/HusainRajaa" target="_blank" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="mailto:husainir25.comp@coeptech.ac.in" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Designed & Built by <span class="highlight">Husain Raja</span></p>
+        <p class="copyright">© 2024-25 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+
+</html>
